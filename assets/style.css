@@ -51,7 +51,6 @@ body{
 }
 
 .second_section{
-    height: 200px;
     background-color: white;
     display: flex;
     justify-content: center; 
@@ -59,15 +58,13 @@ body{
 }
 
 .third_section{
-    height: 200px;
-    background-color: gray;
+    background-color: #f6f6f6;
     display: flex;
     justify-content: center; 
     align-items:center;
 }
 
 .fourth_section{
-    height: 200px;
     background-color: white;
     display: flex;
     justify-content: center; 
@@ -95,23 +92,16 @@ body{
 .container_1{
     width: 20%;
     height: 80%;
-    background-color: pink;
-    border: 1px dotted;
-    
+    background-color: white;  
 }
 
 .container_2{
-    width: 30%;
-    height: 80%;
-    background-color:cornflowerblue;
-    border: 1px dotted;
-    
+    background-color:white;   
 }
 
 .container_0{
     width: 30%;
     height: 80%;
-    border: 1px dotted;
 }
 
 .container_3{
