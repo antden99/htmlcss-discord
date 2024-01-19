@@ -12,7 +12,7 @@ body{
     justify-content: center; 
     align-items:center;
     padding-top: 20px;
-    
+    font-family: sans-serif; 
 }
 
 .item1{
@@ -25,17 +25,20 @@ body{
     text-align: center;
     background-color: #3161e0 ;
     color: white;
+    
 }
 
 .item3{
-    font-size: small;
+    font-size: 12px;
     text-align: end;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 45%;
     text-align: center;
-    padding: 0.8% ;
-    padding-left: ;
-
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    
 }
 
 
@@ -72,57 +75,64 @@ body{
 }
 
 .fifth_section{
-    height: 400px;
-    background-color: gray;
+    
+    background-color: #f6f6f6;
     display: flex;
     justify-content: center; 
     align-items:center;
+    font-family: sans-serif; 
     
 }
 
 .sixth_section{
-    height: 400px;
-    background-color: rgb(20, 19, 19);
+    align-items: center;
+    background-color: #23272a;
     display: flex;
     justify-content: center; 
     align-items:center;
     border-bottom: 5px solid gray;
+    font-family: sans-serif; 
 }
 
 .container_1{
     width: 20%;
     height: 80%;
     background-color: white;  
+    font-family: sans-serif;
 }
 
 .container_2{
     background-color:white;   
+    font-family: sans-serif;
 }
 
 .container_0{
     width: 30%;
     height: 80%;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .container_3{
     width: 50%;
     height: 80%;
-    background-color: green;
-    border: 1px dotted;
+    background-color: #f6f6f6;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 #area_0{
     width: 13%;
     height: 80%;
-    background-color: rgb(192, 144, 152);
-    border: 1px dotted;
+    background-color:#23272a;
+    
 }
 
 #area_1{
     width: 9%;
     height: 80%;
-    background-color: green;
-    border: 1px dotted;
+    background-color:#23272a;
+    
 }
 
 #site_footer{
@@ -153,3 +163,19 @@ body{
     text-align: center;
 }
 
+.bc_color{
+    background-color: #f6f6f6;
+}
+
+.img_bc{
+    background-image: url(./img/stars.svg);
+    
+}
+
+.bc_color_2{
+    color: #4d5c8a;
+}
+
+.bc_color_3{
+    color: white;
+}
