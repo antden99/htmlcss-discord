@@ -30,15 +30,26 @@ body{
 
 .item3{
     font-size: 12px;
-    text-align: end;
-    background-color: white;
-    border-radius: 45%;
+    color: black;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     
+}
+
+.botton{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
 }
 
 
@@ -85,12 +96,7 @@ body{
 }
 
 .sixth_section{
-    align-items: center;
     background-color: #23272a;
-    display: flex;
-    justify-content: center; 
-    align-items:center;
-    border-bottom: 5px solid gray;
     font-family: sans-serif; 
 }
 
@@ -137,15 +143,16 @@ body{
 
 #site_footer{
     height: 50pxx;
-    background-color: rgb(156, 228, 183) ;
+    background-color:#23272a ;
     display: flex;
     justify-content: center; 
     align-items:end;
-    border-bottom: 5px solid gray;
+    padding-bottom: 50px;
 }
 
 .padre{
-    background-color: orange;
+    padding-top: 2%;
+    background-color: #23272a;
     height: 70%;
     width: 50%;
     display: flex;
@@ -158,7 +165,7 @@ body{
     color: white;
 }
 
-#item_title{
+.item_title{
     color: white;
     text-align: center;
 }
@@ -168,8 +175,7 @@ body{
 }
 
 .img_bc{
-    background-image: url(./img/stars.svg);
-    
+    background-image: url(./img/stars.svg);   
 }
 
 .bc_color_2{
@@ -178,4 +184,22 @@ body{
 
 .bc_color_3{
     color: white;
+}
+
+.contenitor{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;    
+    border-bottom: 2px solid blue;
+}
+
+.sign_in{
+    color: white;
+    text-align: center;
+    
+    background-color: #a1b1e7;
+    border-radius: 20px;
+    padding: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
