@@ -5,6 +5,7 @@ body{
 #site_header{
     background-color:#3161e0;
     height: 50px;
+    
 }
 
 .container{
@@ -17,7 +18,7 @@ body{
 
 .item1{
     width: 10%;
-    background-color: #3161e0 ;
+    background-color: #3161e0 ;   
 }
 
 .item2{
@@ -65,6 +66,7 @@ body{
     background-image: url(./img/jumbo.png);
     background-size: 100% 100%;
     
+    
 }
 
 .second_section{
@@ -79,6 +81,7 @@ body{
     display: flex;
     justify-content: center; 
     align-items:center;
+    padding-bottom: 50px ;
 }
 
 .fourth_section{
@@ -217,9 +220,20 @@ body{
     padding-right: 20px;
 }
 
-.color{
-    background-color: red;
-    width: 100%;
+
+#color{  
+    fill:  #f6f6f6;
+    background-color:  white;
+    margin-top: 10%;
+    display: flex;
    
-    
 }
+
+#color1{  
+    fill: #f6f6f6;
+    background-color:  white;   
+    display: flex;
+    padding-top: 50px;
+    transform: rotate(180deg);
+}
+
